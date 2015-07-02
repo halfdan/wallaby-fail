@@ -1,0 +1,23 @@
+{
+  "name": "wallaby-fail",
+  "main": "lib/thing.js",
+  "version": "0.0.1",
+  "author": "Fabian Becker <halfdan@xnorfz.de>",
+  "description": "Thing",
+  "files": [
+    "lib/"
+  ],
+  "dependencies": {
+    "knex": "^0.8.5",
+    "sqlite3": "^3.0.8"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.5",
+    "should": "~6.0.1",
+    "sinon": "~1.12.2"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
